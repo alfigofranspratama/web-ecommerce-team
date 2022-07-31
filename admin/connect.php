@@ -4,6 +4,7 @@ define("HOST","");
 define("USER","");
 define("PASS","");
 define("DB","");
+define("TABEL","");
 
 class Database {
 	private $host;
