@@ -7,5 +7,5 @@ define("DB","");
 
 $connect = mysqli_connect(HOST,USER,PASS,DB);
 
-function __Katakunci(){
+function __Katakunci($data){
 }
