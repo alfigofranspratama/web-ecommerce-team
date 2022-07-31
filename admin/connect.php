@@ -17,6 +17,7 @@ class Database {
 	public function query($data){
 		$q = mysqli_connect($this -> connect,$data);
 		
+		
 	}
 }
 
