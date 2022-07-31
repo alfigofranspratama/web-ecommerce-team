@@ -21,11 +21,17 @@ $DATA = $Ryugen -> query("SELECT * FROM ".TABEL);
     <body>
     	
 <!--END HEADER -->
+	
+	
+	
     	<div class="container">
     	   <div class="row">
     	       
     	   </div>
     	</div>
+    
+    
+    
 <!-- BEGIN FOOTER-->
      <script src="../asset/bootstrap/js/bootstrap.bundle.min.js"></script>
     </body>
