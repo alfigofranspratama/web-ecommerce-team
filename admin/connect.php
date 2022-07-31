@@ -12,7 +12,7 @@ class Database {
 	private $db;
 	protected $connect;
 	public function __construct($r,$y,$u,$x,$d){
-		return mysqli_connect($r,$y,$u,$x,$d);
+		return $this -> connect = mysqli_connect($r,$y,$u,$x,$d);
 	}
 	public function query($data){
 		
