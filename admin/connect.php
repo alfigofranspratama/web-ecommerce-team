@@ -5,6 +5,7 @@ define("USER","");
 define("PASS","");
 define("DB","");
 
+/*
 $connect = mysqli_connect(HOST,USER,PASS,DB);
 
 function __Katakunci($data){
@@ -16,7 +17,7 @@ function __Katakunci($data){
 	}
 	return $gwggeh;
 }
-
+*/
 /*************************
 GW GG XD RUYUGEN XD
 **************************/
