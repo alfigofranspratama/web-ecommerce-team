@@ -1,6 +1,6 @@
 <?php
 require_once "connect.php";
-$Ryugen = new 
+$Ryugen = new Database();
 ?>
 <!Doctype html>
 <!-- gw ngambil tugas ini -->
