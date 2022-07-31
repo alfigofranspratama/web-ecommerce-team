@@ -16,3 +16,7 @@ function __Katakunci($data){
 	}
 	return $gwggeh;
 }
+
+/*************************
+GW GG XD RUYUGEN XD
+**************************/
