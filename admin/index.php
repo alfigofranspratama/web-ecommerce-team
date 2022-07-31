@@ -1,5 +1,5 @@
 <?php
-require_once "";
+require_once "connect.php";
 $Ryugen = new 
 ?>
 <!Doctype html>
