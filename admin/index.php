@@ -1,6 +1,6 @@
 <?php
 require_once "connect.php";
-$Ryugen = new Database();
+$Ryugen = new Database(HOST,USER,PASS,DB);
 ?>
 <!Doctype html>
 <!-- gw ngambil tugas ini -->
