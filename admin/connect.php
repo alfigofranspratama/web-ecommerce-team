@@ -20,6 +20,7 @@ class Database {
 	    while($ry = mysqli_fetch_assoc($q)){
 		  $ryu[] = $ry;
 	    }
+	    return $ryu;
 	}
 }
 
