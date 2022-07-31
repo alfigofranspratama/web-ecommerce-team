@@ -23,7 +23,7 @@ $DATA = $Ryugen -> query("SELECT * FROM ".TABEL);
 <!--END HEADER -->
 	
 	
-	
+<!-- CONTENT -->
     	<div class="container">
     	   <div class="row">
     	       
