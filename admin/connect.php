@@ -12,6 +12,7 @@ function __Katakunci($data){
 	$query = mysqli_query($connect,$data);
 	$gwggeh = [];
 	while($ryu = mysqli_fetch_assoc($query)){
+		$gwggeh[]=$ryu;
 	}
 	return 
 }
