@@ -1,7 +1,7 @@
 <?php
 require_once "connect.php";
 $Ryugen = new Database(HOST,USER,PASS,DB);
-$DATA = $Ryugen -> query("");
+$DATA = $Ryugen -> query("SELECT * FROM ".TABEL);
 ?>
 <!Doctype html>
 <!-- gw ngambil tugas ini -->
