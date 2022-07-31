@@ -6,6 +6,8 @@ $DATA = $Ryugen -> query("SELECT * FROM ".TABEL);
 <!Doctype html>
 <!-- gw ngambil tugas ini -->
 <!-- RyugenXD-->
+	
+<!-- BEGIN HEADER -->
 <html lang="id">
     <head>
     	 <meta charset="UTF-8">
@@ -17,6 +19,8 @@ $DATA = $Ryugen -> query("SELECT * FROM ".TABEL);
         <link rel="stylesheet" href="../asset/bootstrap/css/bootstrap.min.css"/>
      </head>
     <body>
+    	
+<!--END HEADER -->
     	<div class="container">
     	   <div class="row">
     	       
