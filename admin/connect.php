@@ -5,6 +5,11 @@ define("USER","");
 define("PASS","");
 define("DB","");
 
+class Database {
+	
+}
+
+
 /*
 $connect = mysqli_connect(HOST,USER,PASS,DB);
 
