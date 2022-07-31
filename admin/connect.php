@@ -15,7 +15,8 @@ class Database {
 		return $this -> connect = mysqli_connect($r,$y,$u,$x,$d);
 	}
 	public function query($data){
-		$q = $this -> connect;
+		$q = mysqli_connect($this -> connect,$data);
+		
 	}
 }
 
