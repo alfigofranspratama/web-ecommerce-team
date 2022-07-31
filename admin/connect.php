@@ -11,7 +11,7 @@ class Database {
 	private $pass;
 	private $db;
 	public function __construct($r,$y,$u,$x,$d){
-		
+		return mysqli_connect($r,$y,$u,$x,$d);
 	}
 }
 
