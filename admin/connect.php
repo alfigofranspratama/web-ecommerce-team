@@ -13,4 +13,5 @@ function __Katakunci($data){
 	$gwggeh = [];
 	while(){
 	}
+	return 
 }
