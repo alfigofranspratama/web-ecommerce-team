@@ -17,7 +17,7 @@ class Database {
 	public function query($data){
 		$q = mysqli_connect($this -> connect,$data);
 	    $ryu = [];
-	    while($ry = mysqli_fetch_assoc()){
+	    while($ry = mysqli_fetch_assoc($q)){
 	    }
 	}
 }
