@@ -1,3 +1,5 @@
+<?php
+?>
 <!Doctype html>
 <!-- gw ngambil tugas ini -->
 <!-- RyugenXD-->
