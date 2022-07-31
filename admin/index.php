@@ -6,5 +6,6 @@
         <link rel="stylesheet" href="../asset/bootstrap/css/bootstrap.min.css"/>
      </head>
     <body>
+     <script src="../asset/bootstrap/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
