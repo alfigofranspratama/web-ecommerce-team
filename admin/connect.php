@@ -6,7 +6,13 @@ define("PASS","");
 define("DB","");
 
 class Database {
-	
+	private $host;
+	private $user;
+	private $pass;
+	private $db;
+	public function __construct(){
+		
+	}
 }
 
 
