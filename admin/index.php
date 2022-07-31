@@ -7,7 +7,7 @@
      </head>
     <body>
     	<div class="container">
-    	   <div>
+    	   <div class="row">
     	   </div>
     	</div>
      <script src="../asset/bootstrap/js/bootstrap.bundle.min.js"></script>
