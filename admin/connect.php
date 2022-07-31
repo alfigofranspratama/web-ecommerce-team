@@ -11,5 +11,7 @@ function __Katakunci($data){
 	global $connect;
 	$query = mysqli_query($connect,$data);
 	$gwggeh = [];
+	while(){
+	}
 	
 }
