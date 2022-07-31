@@ -18,6 +18,7 @@ class Database {
 		$q = mysqli_connect($this -> connect,$data);
 	    $ryu = [];
 	    while($ry = mysqli_fetch_assoc($q)){
+		  $ryu[] = $ry;
 	    }
 	}
 }
