@@ -1,4 +1,6 @@
 <!Doctype html>
+<!-- gw ngambil tugas ini -->
+<!-- RyugenXD-->
 <html lang="id">
     <head>
     	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-calable=no"/>
