@@ -1,5 +1,5 @@
 <?php
-// include 'session.php';
+session_start();
 include 'koneksi.php';
 ?>
 
@@ -57,30 +57,35 @@ include 'koneksi.php';
                 <?php
                 if (isset($_POST['login'])) {
                     $username = htmlspecialchars($_POST['username']);
-                    $password = $_POST['password'];
-                    $hash = password_hash($password, PASSWORD_DEFAULT);
+                    $password = htmlspecialchars($_POST['password']);
 
-                    $q = mysqli_query($con, "SELECT * FROM tb_login WHERE username='$username' AND password='$password'");
-                    $d = mysqli_fetch_array($q);
-                    $c = mysqli_num_rows($q);
+                    $login = mysqli_query($con, "SELECT * FROM tb_login WHERE username='$username'");
+                    $cekData = mysqli_num_rows($login);
 
-                    if ($c < 0) {
+                    if ($cekData > 0) {
+                        $data = mysqli_fetch_array($login);
+
+                        if (password_verify($password, $data['password'])) {
+                            if ($data['level'] == "admin") {
+                                $_SESSION['username'] = $username;
+                                $_SESSION['level'] = "admin";
                 ?>
-                        <div class="alert alert-danger" role="alert">
-                            Username tidak terdaftar.
-                        </div>
-                        <?php
-                    } else {
-                        if (password_verify($password, $hash)) {
+                                <meta http-equiv="refresh" content="0; url=../admin/index.php">
+                            <?php
+                            } elseif ($data['level'] == "user") {
+                                $_SESSION['username'] = $username;
+                                $_SESSION['level'] = "user";
 
-                            $_SESSION['login'] == $d['username'];
-                            // $_SESSION['login'] == true;
-                        ?>
-                            <!-- <meta http-equiv="refresh" content="0; url=index.php"> -->
+                            ?>
+                                <meta http-equiv="refresh" content="0; url=../user/index.php">
                 <?php
+
+                            }
                         } else {
-                            echo "<script>alert('katasandi salah.')</script>";
+                            echo "<script>alert('Katasandi Salah.')</script>" . '<meta http-equiv="refresh" content="0; url=login.php">';
                         }
+                    } else {
+                        echo "<script>alert('akun tidak tersedia silahkan hubungi admin.')</script>";
                     }
                 }
                 ?>
