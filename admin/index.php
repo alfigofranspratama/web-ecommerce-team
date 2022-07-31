@@ -1,5 +1,6 @@
 <?php
-
+require_once "";
+$Ryugen = new 
 ?>
 <!Doctype html>
 <!-- gw ngambil tugas ini -->
