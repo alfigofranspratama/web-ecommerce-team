@@ -10,7 +10,7 @@ class Database {
 	private $user;
 	private $pass;
 	private $db;
-	public function __construct(){
+	public function __construct($r,$y,$u,$x,$d){
 		
 	}
 }
