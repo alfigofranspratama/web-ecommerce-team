@@ -29,7 +29,7 @@ $DATA = $Ryugen -> query("SELECT * FROM ".TABEL);
     	       
     	   </div>
     	</div>
-    
+<!--END CONTENT-->    
     
     
 <!-- BEGIN FOOTER-->
