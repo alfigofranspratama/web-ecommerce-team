@@ -5,4 +5,4 @@ define("USER","");
 define("PASS","");
 define("DB","");
 
-$connect = mysqli_connect();
+$connect = mysqli_connect(HOST,USER,PASS,DB);
