@@ -1,2 +1,5 @@
 <?php
 
+define();
+define();
+define();
