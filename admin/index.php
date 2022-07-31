@@ -26,6 +26,8 @@ $DATA = $Ryugen -> query("SELECT * FROM ".TABEL);
     	       
     	   </div>
     	</div>
+<!-- BEGIN FOOTER-->
      <script src="../asset/bootstrap/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
+<!-- END FOOTER-->
