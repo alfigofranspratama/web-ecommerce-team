@@ -1,10 +1,15 @@
 <?php
+require __DIR__."/lib/autoload.php";
+
 // database koneksi
-$host = "localhost";
+$host = "localhost"; // default localhost
 $username = "root";
-$password = "";
+$password = ""; // default null
 $database = "db_team";
 
-$con = mysqli_connect($host, $username, $password, $database);
 
+$config = new Connection($host, $username, $password, $database);
+$conn = $config->connect();
+
+$db = new Handler_db($conn);
 ?>
