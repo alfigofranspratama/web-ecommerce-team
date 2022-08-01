@@ -19,9 +19,9 @@
             kategori
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">baju</a></li>
-            <li><a class="dropdown-item" href="#">celana</a></li>
-            <li><a class="dropdown-item" href="#">Sepatu</a></li>
+            <?php foreach($allkategori as $kategori) : ?>
+            <li><a class="dropdown-item" href="#"><?= $kategori['nama_kategori']; ?></a></li>
+            <?php endforeach; ?>
           </ul>
         </li>
         <li class="nav-item">
