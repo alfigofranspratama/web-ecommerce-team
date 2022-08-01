@@ -16,8 +16,8 @@ class Connection {
       $this->conn = $conn;
       return $conn;
     } catch(\Exception $e) {
-      $p = new Page();
-      $p->_500();
+      echo "505 server error";
+      exit;
     }
   }
 }
