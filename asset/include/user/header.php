@@ -3,7 +3,7 @@
     <section >
         <ul class="d-flex" style="list-style:none;">
             <li >
-                <a href="" class="text-white p-2 d-flex">
+                <a href="/register/" class="text-white p-2 d-flex">
                 <img src="asset/img/registersvg.svg" alt="" height="20px">    
                 <p>Daftar</p></a>
             </li>

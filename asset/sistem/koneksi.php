@@ -1,10 +1,10 @@
 <?php
 require __DIR__."/lib/autoload.php";
-
+date_default_timezone_set("Asia/Jakarta");
 // database koneksi
-$host = "localhost"; // default localhost
+$host = "0.0.0.0"; // default localhost
 $username = "root";
-$password = ""; // default null
+$password = "root"; // default null
 $database = "db_team";
 
 
