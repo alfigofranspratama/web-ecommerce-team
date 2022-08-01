@@ -1,3 +1,15 @@
+<?php
+require 'asset/sistem/query.php';
+
+$allkategori = query("SELECT * FROM tb_kategori");
+
+$jumlahproduk = count(query("SELECT * FROM tb_produk"));
+
+$produkterbaru = $jumlahproduk - 5;
+$allproduk = query("SELECT * FROM tb_produk LIMIT $produkterbaru, 5");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
